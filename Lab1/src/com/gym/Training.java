@@ -2,8 +2,8 @@ package com.gym;
 
 public interface Training {
 
-    abstract boolean warmUp();
-    double excercise();
-    void stratch();
+   // boolean warmUp(double x);
+    void exercise(double distance);
+    void stretch();
 
 }

@@ -1,4 +1,6 @@
 package com.gym.interfaces;
 
-public class Warmable {
+public interface Warmable {
+    boolean isWarmedUp();
+    void warmUp();
 }

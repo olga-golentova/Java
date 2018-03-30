@@ -1,4 +1,6 @@
 package com.gym.interfaces.reward;
 
-public class Reward {
+public interface Reward {
+    String getName();
+    Value getValue();
 }
