@@ -20,6 +20,10 @@ public class Runner extends Sportsman implements Training {
         distance=newDistance;
     }
 
+    public double getDistance(){
+        return this.distance;
+    }
+
 /*
     public boolean warmUp(double distance){
         System.out.println("The runner" + this.getName() + "warmed up by running" + this.distance*0.1 );
@@ -28,8 +32,8 @@ public class Runner extends Sportsman implements Training {
 */
     public void exercise(double distance){
             if(isWarmedUp()){
-        double newDistance = distance+distance*0.01;
-        System.out.println("The runner" + this.getName() + "exercised by running" + this.distance + "and improved his skill. Next time he can run" + newDistance);
+        double newDistance = this.getDistance() +distance*0.01;
+        System.out.println("The runner " + this.getName() + " exercised by running" + this.distance + "and improved his skill. Next time he can run" + newDistance);
         this.setDistance(newDistance);}
         else {
                 System.out.println("Go and warm up!You can harm yourself!");
@@ -37,11 +41,11 @@ public class Runner extends Sportsman implements Training {
     };
 
     public void stretch(){
-        System.out.println("The runner" + this.getName() + "stretched and feels much better");
+        System.out.println("The runner " + this.getName() + " stretched and feels much better");
     };
 
     protected String getWarmUpAction(){
-        return "The runner" + this.getName() + "warmed up by running" + this.distance*0.1 ;
+        return "The runner " + this.getName() + " warmed up by running" + this.distance*0.1 ;
 
     };
 
