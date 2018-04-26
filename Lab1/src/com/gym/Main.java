@@ -1,6 +1,4 @@
 package com.gym;
-
-
 import com.gym.interfaces.reward.Reward;
 import com.gym.interfaces.reward.RewardUtils;
 import com.gym.interfaces.reward.Value;
@@ -32,3 +30,4 @@ public class Main {
 
     }
 }
+
