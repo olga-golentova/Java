@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c40e623-4e41-4683-b893-96fc52305310" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/gym/HygieneMaintenance.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/gym/Nourishment.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/com/gym/Sportsman.java" afterPath="$PROJECT_DIR$/src/com/gym/Sportsman.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -457,7 +454,14 @@
       <option name="project" value="LOCAL" />
       <updated>1525902105147</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Good variant, all methods are implemented in another classes">
+      <created>1525902563318</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1525902563318</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -510,7 +514,8 @@
     <MESSAGE value="Bad variant, checkPulse and boxChesses in Sportsman implemented" />
     <MESSAGE value="Better variant, checkPulse and setChesses by Interface implemented" />
     <MESSAGE value="Bad variant, all methods are implemented in sportsman" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bad variant, all methods are implemented in sportsman" />
+    <MESSAGE value="Good variant, all methods are implemented in another classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Good variant, all methods are implemented in another classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
