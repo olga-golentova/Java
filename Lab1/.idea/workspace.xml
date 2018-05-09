@@ -73,8 +73,8 @@
           <file leaf-file-name="Sportsman.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/com/gym/Sportsman.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="475">
-                  <caret line="116" column="53" lean-forward="false" selection-start-line="116" selection-start-column="53" selection-end-line="116" selection-end-column="53" />
+                <state relative-caret-position="356">
+                  <caret line="111" column="19" lean-forward="true" selection-start-line="111" selection-start-column="19" selection-end-line="111" selection-end-column="19" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#772#773#0" expanded="true" />
@@ -93,10 +93,8 @@
                     <element signature="e#2514#2515#0" expanded="true" />
                     <element signature="e#2594#2595#0" expanded="true" />
                     <element signature="e#2673#2674#0" expanded="true" />
-                    <element signature="e#2704#2705#0" expanded="true" />
-                    <element signature="e#2761#2762#0" expanded="true" />
-                    <element signature="e#2792#2793#0" expanded="true" />
-                    <element signature="e#2856#2857#0" expanded="true" />
+                    <element signature="e#2697#2698#0" expanded="true" />
+                    <element signature="e#2754#2755#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -440,7 +438,14 @@
       <option name="project" value="LOCAL" />
       <updated>1525898870348</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Bad variant, all methods are implemented in sportsman">
+      <created>1525901259661</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1525901259661</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -492,7 +497,8 @@
     <MESSAGE value="Class Chessplayer and Main implemented" />
     <MESSAGE value="Bad variant, checkPulse and boxChesses in Sportsman implemented" />
     <MESSAGE value="Better variant, checkPulse and setChesses by Interface implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="Better variant, checkPulse and setChesses by Interface implemented" />
+    <MESSAGE value="Bad variant, all methods are implemented in sportsman" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bad variant, all methods are implemented in sportsman" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -571,10 +577,8 @@
             <element signature="e#2514#2515#0" expanded="true" />
             <element signature="e#2594#2595#0" expanded="true" />
             <element signature="e#2673#2674#0" expanded="true" />
-            <element signature="e#2704#2705#0" expanded="true" />
-            <element signature="e#2761#2762#0" expanded="true" />
-            <element signature="e#2792#2793#0" expanded="true" />
-            <element signature="e#2856#2857#0" expanded="true" />
+            <element signature="e#2697#2698#0" expanded="true" />
+            <element signature="e#2754#2755#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -665,10 +669,8 @@
             <element signature="e#2514#2515#0" expanded="true" />
             <element signature="e#2594#2595#0" expanded="true" />
             <element signature="e#2673#2674#0" expanded="true" />
-            <element signature="e#2704#2705#0" expanded="true" />
-            <element signature="e#2761#2762#0" expanded="true" />
-            <element signature="e#2792#2793#0" expanded="true" />
-            <element signature="e#2856#2857#0" expanded="true" />
+            <element signature="e#2697#2698#0" expanded="true" />
+            <element signature="e#2754#2755#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -759,10 +761,8 @@
             <element signature="e#2514#2515#0" expanded="true" />
             <element signature="e#2594#2595#0" expanded="true" />
             <element signature="e#2673#2674#0" expanded="true" />
-            <element signature="e#2704#2705#0" expanded="true" />
-            <element signature="e#2761#2762#0" expanded="true" />
-            <element signature="e#2792#2793#0" expanded="true" />
-            <element signature="e#2856#2857#0" expanded="true" />
+            <element signature="e#2697#2698#0" expanded="true" />
+            <element signature="e#2754#2755#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -845,10 +845,8 @@
             <element signature="e#2514#2515#0" expanded="true" />
             <element signature="e#2594#2595#0" expanded="true" />
             <element signature="e#2673#2674#0" expanded="true" />
-            <element signature="e#2704#2705#0" expanded="true" />
-            <element signature="e#2761#2762#0" expanded="true" />
-            <element signature="e#2792#2793#0" expanded="true" />
-            <element signature="e#2856#2857#0" expanded="true" />
+            <element signature="e#2697#2698#0" expanded="true" />
+            <element signature="e#2754#2755#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -899,10 +897,8 @@
             <element signature="e#2514#2515#0" expanded="true" />
             <element signature="e#2594#2595#0" expanded="true" />
             <element signature="e#2673#2674#0" expanded="true" />
-            <element signature="e#2704#2705#0" expanded="true" />
-            <element signature="e#2761#2762#0" expanded="true" />
-            <element signature="e#2792#2793#0" expanded="true" />
-            <element signature="e#2856#2857#0" expanded="true" />
+            <element signature="e#2697#2698#0" expanded="true" />
+            <element signature="e#2754#2755#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -953,10 +949,8 @@
             <element signature="e#2514#2515#0" expanded="true" />
             <element signature="e#2594#2595#0" expanded="true" />
             <element signature="e#2673#2674#0" expanded="true" />
-            <element signature="e#2704#2705#0" expanded="true" />
-            <element signature="e#2761#2762#0" expanded="true" />
-            <element signature="e#2792#2793#0" expanded="true" />
-            <element signature="e#2856#2857#0" expanded="true" />
+            <element signature="e#2697#2698#0" expanded="true" />
+            <element signature="e#2754#2755#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1093,8 +1087,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gym/Sportsman.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="116" column="53" lean-forward="false" selection-start-line="116" selection-start-column="53" selection-end-line="116" selection-end-column="53" />
+        <state relative-caret-position="356">
+          <caret line="111" column="19" lean-forward="true" selection-start-line="111" selection-start-column="19" selection-end-line="111" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#772#773#0" expanded="true" />
@@ -1113,10 +1107,8 @@
             <element signature="e#2514#2515#0" expanded="true" />
             <element signature="e#2594#2595#0" expanded="true" />
             <element signature="e#2673#2674#0" expanded="true" />
-            <element signature="e#2704#2705#0" expanded="true" />
-            <element signature="e#2761#2762#0" expanded="true" />
-            <element signature="e#2792#2793#0" expanded="true" />
-            <element signature="e#2856#2857#0" expanded="true" />
+            <element signature="e#2697#2698#0" expanded="true" />
+            <element signature="e#2754#2755#0" expanded="true" />
           </folding>
         </state>
       </provider>

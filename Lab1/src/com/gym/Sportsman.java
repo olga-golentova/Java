@@ -109,12 +109,8 @@ public abstract class Sportsman implements Warmable, Rewardable {
     System.out.println("I got showered after training in a gym shower");
     }
 
-    public void eatProtain(){
+    public void eat(){
         System.out.println("I ate a protein bar");
-    }
-
-    public void getMassage(){
-        System.out.println("I've got massaged by girl!");
     }
 
 
