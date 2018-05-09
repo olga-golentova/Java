@@ -33,6 +33,10 @@ public class Chessplayer extends Sportsman  {
 
     };
 
+    public void setChesses(){
+        System.out.println("I set my chesses");
+    };
+
 //    @Override
 //    public boolean equals(Object o) {
 //        if (this == o) return true;

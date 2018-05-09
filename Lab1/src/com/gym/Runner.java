@@ -1,11 +1,12 @@
 package com.gym;
 
+import com.gym.interfaces.Pulseble;
 import com.gym.interfaces.reward.Reward;
 
 import java.util.List;
 import java.util.Objects;
 
-public class Runner extends Sportsman implements Training {
+public class Runner extends Sportsman implements Training, Pulseble {
 
     public double distance;
 
@@ -61,5 +62,10 @@ public class Runner extends Sportsman implements Training {
     public int hashCode() {
 
         return Objects.hash(distance);
+    }
+
+    public  void checkPulse()
+    {
+        System.out.println("I checked my pulse");
     }
 }

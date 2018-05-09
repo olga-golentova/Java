@@ -105,14 +105,11 @@ public abstract class Sportsman implements Warmable, Rewardable {
 
     protected abstract String getWarmUpAction();
 
-    public  void checkPulse()
-    {
-        System.out.println("I checked my pulse");
-    }
 
-    public void boxChesses()
+
+    public void setChesses()
     {
-        System.out.println("I boxed my chesses");
+        System.out.println("I set my chesses");
 
     }
 }
