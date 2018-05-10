@@ -6,7 +6,7 @@ import com.gym.interfaces.reward.Reward;
 import java.util.List;
 import java.util.Objects;
 
-public class Chessplayer extends Sportsman implements Chessable {
+public class Chessplayer extends PassiveSportsman implements Chessable {
 
 
 
@@ -16,13 +16,9 @@ public class Chessplayer extends Sportsman implements Chessable {
     }
 
     public void exercise(){
-        if(isWarmedUp()){
 
             System.out.println("The chess player " + this.getName() + " exercised by playing the game and improved his skill. We can't determine his improvements");
-            }
-        else {
-            System.out.println("Go and warm up!Your brain still isn't working!");
-        }
+
     };
 
     public void stretch(){

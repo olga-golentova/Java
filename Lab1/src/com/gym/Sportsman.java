@@ -10,13 +10,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public abstract class Sportsman implements Warmable, Rewardable {
+public abstract class Sportsman implements Rewardable {
 
     private int weight;
     private int height;
     private int age;
     private String name;
-    private boolean isWarmedUp;
     private List<Reward> rewards;
 
     public Sportsman(int weight, int height, int age, String name, List<Reward> rewards) {
@@ -65,20 +64,7 @@ public abstract class Sportsman implements Warmable, Rewardable {
         name = newName;
     }
 
-    @Override
-    public boolean isWarmedUp() {
-        return isWarmedUp;
-    }
 
-    @Override
-    public final void warmUp() {
-        if (isWarmedUp) {
-            System.out.println("Is already warmed up!");
-        } else {
-            isWarmedUp = true;
-            System.out.println(getWarmUpAction());
-        }
-    }
 
     @Override
     public void addReward(Reward reward) {
@@ -105,13 +91,6 @@ public abstract class Sportsman implements Warmable, Rewardable {
 
     protected abstract String getWarmUpAction();
 
-//    public void getShower(){
-//    System.out.println("I got showered after training in a gym shower");
-//    }
-//
-//    public void eat(){
-//        System.out.println("I ate a protein bar");
-//    }
 
 
 }
