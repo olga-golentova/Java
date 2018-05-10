@@ -1,11 +1,12 @@
 package com.gym;
 
+import com.gym.interfaces.Chessable;
 import com.gym.interfaces.reward.Reward;
 
 import java.util.List;
 import java.util.Objects;
 
-public class Chessplayer extends Sportsman  {
+public class Chessplayer extends Sportsman implements Chessable {
 
 
 
